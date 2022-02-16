@@ -27,12 +27,11 @@ class LettersCalculator extends Component {
             id="inputSearch"
             name="Enter the phrase"
             placeholder="Enter the phrase"
-            type="search"
             value={searchInput}
             onChange={this.onChangeSearchInput}
           />
 
-          <p>No.of letters:{value}</p>
+          <p>No.of letters: {value}</p>
         </div>
         <div>
           <img
